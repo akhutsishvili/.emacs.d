@@ -1,12 +1,12 @@
 ;;;;;;; describe bindins with M-x describe-bindings
 ;;;;;;; check bindings of command with M-x where-is <COMMAND>
 
-; multiple cursors config
-; (require 'multiple-cursors)
-; (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
-; (global-set-key (kbd "C->") 'mc/mark-next-like-this)
-; (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-; (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+;; multiple cursors config
+(require 'multiple-cursors)
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
 (require 'yasnippet)
 (define-key yas-minor-mode-map (kbd "<tab>") nil)
@@ -14,7 +14,10 @@
 (define-key yas-minor-mode-map (kbd "C-c C-y") 'yas-expand)
 
 (require 'expand-region)
-(global-set-key (kbd "C-=") 'er/expand-region)
+(global-set-key (kbd "C-@") 'er/expand-region)
+
+(require 'mark-multiple)
+(global-set-key (kbd "C-!") 'mark-next-like-this)
 
 (global-set-key (kbd "C-\-") (lambda () (interactive)(insert "->"))) ;; shortcut for ->
 (global-set-key [(control h)] 'delete-backward-char) ;; use C-h as backspace
@@ -33,7 +36,7 @@
 
 (global-set-key (kbd "C-c C-r") 'comment-or-uncomment-region)
 
-; ace jump config
+;; ace jump config
 (require 'ace-jump-mode)
 (autoload 'ace-jump-mode "ace-jump-mode" "Emacs quick move minor mode" t)
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)

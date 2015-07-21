@@ -16,6 +16,8 @@
     expand-region
     el-get
     fullscreen-mode
+    restclient
+    key-chord
     git-gutter
     js3-mode
     md-readme
@@ -28,6 +30,9 @@
     projectile
     react-snippets
     smex
+    multiple-cursors
+    mark-multiple
+    magit
     web-mode
     wrap-region
     yasnippet

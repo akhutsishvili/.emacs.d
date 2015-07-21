@@ -17,6 +17,9 @@
 (require 'git-gutter)
 (global-git-gutter-mode t)
 
+(require 'key-chord)
+(key-chord-mode 1)
+
 ; (require 'helm)
 ; (helm-mode t)
 
