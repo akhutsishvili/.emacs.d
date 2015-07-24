@@ -17,19 +17,4 @@
 (require 'git-gutter)
 (global-git-gutter-mode t)
 
-<<<<<<< HEAD
-(require 'key-chord)
-(key-chord-mode 1)
-
-=======
->>>>>>> 257883caf16f9c1cd84a32c48afe9e4701f2037f
-; (require 'helm)
-; (helm-mode t)
-
-
-
-<<<<<<< HEAD
 (provide 'global-modes)
-=======
-(provide 'global-modes)
->>>>>>> 257883caf16f9c1cd84a32c48afe9e4701f2037f
