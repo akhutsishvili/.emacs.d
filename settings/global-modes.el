@@ -1,11 +1,5 @@
 (show-paren-mode t)
 
-(require 'yasnippet)
-(yas-global-mode 1)
-
-(require 'autopair)
-(autopair-global-mode t)
-
 (require 'projectile)
 (projectile-global-mode t)
 (fullscreen-mode t)

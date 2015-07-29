@@ -8,7 +8,6 @@
 ;; Guarantee all packages are installed on start
 (defvar packages-list
   '(ace-jump-mode
-    autopair
     auto-complete
     browse-kill-ring
     coffee-mode
