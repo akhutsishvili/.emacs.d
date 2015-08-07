@@ -18,6 +18,7 @@
     restclient
     key-chord
     git-gutter
+    haskell-mode
     js3-mode
     md-readme
     org
