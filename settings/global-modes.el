@@ -11,4 +11,11 @@
 (require 'git-gutter)
 (global-git-gutter-mode t)
 
+
+; after reopening file moves you to same place
+(require 'saveplace)
+(setq-default save-place t)
+(setq save-place-file "~/.emacs.d/saved-places")
+(setq save-place-forget-unreadable-files nil)
+
 (provide 'global-modes)
