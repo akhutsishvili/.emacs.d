@@ -37,7 +37,8 @@
     wrap-region
     yasnippet
     smooth-scrolling
-    undo-tree)
+    undo-tree
+    bm)
   "List of packages needs to be installed at launch")
 
 (defun has-package-not-installed ()
