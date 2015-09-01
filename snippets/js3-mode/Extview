@@ -1,0 +1,14 @@
+Ext.define('$1.view.$2', {
+    extend: '$3',
+    alias: 'widget.$4',
+    $5
+    constructor: function (cfg) {
+        cfg = cfg || {}
+        var me = this
+
+        $6
+
+        me.items = []
+        me.callParent(arguments)
+    }
+})
