@@ -15,7 +15,7 @@
 (define-key yas-minor-mode-map (kbd "C-c C-y") 'yas-expand)
 
 (require 'expand-region)
-(global-set-key (kbd "C-@") 'er/expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
 
 (require 'mark-multiple)
 (global-set-key (kbd "C-!") 'mark-next-like-this)
