@@ -63,6 +63,12 @@
 (require 'js3-mode)
 (require 'setup-js3-mode)
 
+(require 'markdown-mode)
+(provide 'setup-markdown-mode)
+
+(require 'clojure-mode)
+(require 'setup-clojure-mode)
+
 (require 'emmet-mode)
 (require 'setup-emmet-mode)
 
