@@ -6,7 +6,7 @@
 (menu-bar-mode -1)
 
 (custom-set-variables
- '(custom-enabled-themes (quote (tango-dark)))
+ '(custom-enabled-themes (quote (misterioso)))
 )
 
 (set-cursor-color "#A80F0F")
