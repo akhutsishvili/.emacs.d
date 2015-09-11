@@ -18,4 +18,6 @@
 (setq save-place-file "~/.emacs.d/saved-places")
 (setq save-place-forget-unreadable-files nil)
 
+;(autopair-global-mode)
+
 (provide 'global-modes)
