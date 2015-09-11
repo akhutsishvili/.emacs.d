@@ -18,7 +18,6 @@
     restclient
     key-chord
     git-gutter
-    haskell-mode
     js3-mode
     md-readme
     org
@@ -28,7 +27,6 @@
     flx-ido
     php-mode
     projectile
-    react-snippets
     smex
     multiple-cursors
     mark-multiple
@@ -38,7 +36,11 @@
     yasnippet
     smooth-scrolling
     undo-tree
-    bm)
+    bm
+    clojure-mode
+    cider
+    paredit-mode
+    markdown-mode)
   "List of packages needs to be installed at launch")
 
 (defun has-package-not-installed ()
