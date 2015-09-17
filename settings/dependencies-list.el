@@ -1,7 +1,7 @@
 (require 'package)
 (package-initialize)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
+			 ("marmalade" . "https://marmalade-repo.org/packages/")
                          ("melpa" . "http://melpa.org/packages/")))
 
 (require 'cl)
@@ -39,7 +39,7 @@
     bm
     clojure-mode
     cider
-    paredit-mode
+    paredit
     markdown-mode)
   "List of packages needs to be installed at launch")
 
