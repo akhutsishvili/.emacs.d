@@ -42,6 +42,7 @@
 (require 'ace-jump-mode)
 (autoload 'ace-jump-mode "ace-jump-mode" "Emacs quick move minor mode" t)
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+(define-key global-map (kbd "M-z") 'ace-jump-mode)
 (autoload
   'ace-jump-mode-pop-mark
   "ace-jump-mode"
@@ -50,6 +51,7 @@
 (eval-after-load "ace-jump-mode"
   '(ace-jump-mode-enable-mark-sync))
 (define-key global-map (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
+(define-key global-map (kbd "M-Z") 'ace-jump-mode-pop-mark)
 (define-key global-map (kbd "M-j") 'ace-jump-line-mode)
 
 
@@ -69,6 +71,12 @@
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
 ;; clean stuff needed
+
 ;; remove trailin whitespaces
+(global-set-key (kbd "C-c C-c t") 'delete-trailing-whitespace)
+
+;; visit ansi-term buffer
+(global-set-key (kbd "C-c t") 'visit-term-buffer)
+
 
 (provide 'key-bindings)
