@@ -17,7 +17,7 @@
     restclient
     key-chord
     git-gutter
-    js3-mode
+    js2-mode
     md-readme
     org
     ido-vertical-mode
@@ -35,7 +35,6 @@
     yasnippet
     smooth-scrolling
     undo-tree
-    bm
     clojure-mode
     cider
     paredit
