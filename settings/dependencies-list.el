@@ -39,6 +39,7 @@
     cider
     paredit
     solarized-theme
+    rainbow-delimiters
     markdown-mode)
   "List of packages needs to be installed at launch")
 
