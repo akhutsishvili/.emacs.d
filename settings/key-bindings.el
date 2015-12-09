@@ -78,5 +78,8 @@
 ;; visit ansi-term buffer
 (global-set-key (kbd "C-c t") 'visit-term-buffer)
 
+;; magit
+(global-set-key (kbd "C-x M-m") 'magit-status)
+
 
 (provide 'key-bindings)
