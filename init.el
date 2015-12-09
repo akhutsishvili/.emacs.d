@@ -60,8 +60,8 @@
 (smex-initialize)
 
 ; Load mode setups
-(require 'js3-mode)
-(require 'setup-js3-mode)
+(require 'js2-mode)
+(require 'setup-js2-mode)
 
 (require 'markdown-mode)
 (provide 'setup-markdown-mode)
@@ -78,9 +78,3 @@
 
 (require 'auto-complete)
 (require 'auto-complete-config)
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
