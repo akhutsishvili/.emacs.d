@@ -1,0 +1,7 @@
+me.get$1 = function() {
+    return me.$2
+}
+
+me.set$1 = function($2) {
+    me.$2 = $2
+}
