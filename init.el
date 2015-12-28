@@ -83,3 +83,7 @@
 
 ;; disable creation of lockfiles
 (setq create-lockfiles nil)
+
+;; unique
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'reverse)
