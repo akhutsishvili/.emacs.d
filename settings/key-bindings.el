@@ -81,5 +81,6 @@
 ;; magit
 (global-set-key (kbd "C-x M-m") 'magit-status)
 
-
+;; hippie expand
+(global-set-key (kbd "M-/") 'hippie-expand)
 (provide 'key-bindings)
