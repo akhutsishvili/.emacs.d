@@ -60,8 +60,8 @@
 (smex-initialize)
 
 ; Load mode setups
-(require 'js2-mode)
-(require 'setup-js2-mode)
+(require 'js3-mode)
+(require 'setup-js3-mode)
 
 (require 'markdown-mode)
 (provide 'setup-markdown-mode)
@@ -83,6 +83,10 @@
 
 ;; disable creation of lockfiles
 (setq create-lockfiles nil)
+
+;; make markdown avaible during export from org
+(eval-after-load "org"
+  '(require 'ox-md nil t))
 
 ;; unique
 (require 'uniquify)
