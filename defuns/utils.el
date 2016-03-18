@@ -38,7 +38,7 @@
          (insert (file-relative-name filename)))))
 
 (setq webapp "/home/alex/projects/eUni/src/main/webapp/app/")
-(defun exty (start end)
+(defun ext-open (start end)
   (interactive "r")
   (let ((marked (replace-regexp-in-string "[\"\']" "" (buffer-substring (mark) (point)))))
     (find-file (concat webapp (mapconcat 'identity (cdr (split-string marked "\\.")) "/") ".js"))))
