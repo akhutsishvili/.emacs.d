@@ -63,7 +63,7 @@
 ;; Show key bindings in helm
 ; (require 'helm)
 ; (global-set-key (kbd "M-x") 'helm-M-x)
-
+(global-set-key (kbd "C-u C-e") 'ext-open)
 
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
