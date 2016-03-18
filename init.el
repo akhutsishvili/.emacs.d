@@ -90,4 +90,4 @@
 
 ;; unique
 (require 'uniquify)
-(setq uniquify-buffer-name-style 'reverse)
+; (setq uniquify-buffer-name-style 'reverse)
