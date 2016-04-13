@@ -2,7 +2,6 @@
 
 (require 'projectile)
 (projectile-global-mode t)
-(fullscreen-mode t)
 (column-number-mode t)
 
 (require 'wrap-region)

@@ -27,9 +27,6 @@
 (global-set-key (kbd "C-x C-b") 'ibuffer) ;use ibuffer insted of regular buffer list
 (global-set-key [(control tab)] 'other-window)
 
-(require 'fullscreen-mode)
-(global-set-key (kbd "<f11>") 'fullscreen-mode-fullscreen)
-
 (global-set-key (kbd "<f1>") 'occur)
 (global-set-key (kbd "<f12>") 'menu-bar-mode)
 
@@ -63,7 +60,7 @@
 ;; Show key bindings in helm
 ; (require 'helm)
 ; (global-set-key (kbd "M-x") 'helm-M-x)
-(global-set-key (kbd "C-u C-e") 'ext-open)
+; (global-set-key (kbd "C-u C-e") 'ext-open)
 
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
