@@ -9,22 +9,16 @@
   '(ace-jump-mode
     auto-complete
     browse-kill-ring
-    coffee-mode
     emmet-mode
     expand-region
     el-get
-    fullscreen-mode
-    restclient
-    key-chord
     git-gutter
-    js2-mode
     md-readme
     org
     ido-vertical-mode
     ido-at-point
     ido-ubiquitous
     flx-ido
-    php-mode
     projectile
     smex
     multiple-cursors
