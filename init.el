@@ -78,7 +78,6 @@
 
 (require 'auto-complete)
 (require 'auto-complete-config)
-
 ;; some of additional initial config
 
 ;; disable creation of lockfiles
