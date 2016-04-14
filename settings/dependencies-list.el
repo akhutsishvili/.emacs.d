@@ -11,7 +11,10 @@
     browse-kill-ring
     emmet-mode
     expand-region
-    el-get
+    direx
+    goto-last-change
+    smartparens
+    evil-leader
     git-gutter
     md-readme
     org

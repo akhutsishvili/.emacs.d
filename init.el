@@ -80,6 +80,22 @@
 (require 'auto-complete-config)
 ;; some of additional initial config
 
+(require 'direx)
+(global-set-key (kbd "C-x C-j") 'direx:jump-to-directory)
+
+(require 'goto-last-change)
+
+(require 'smartparens-config)
+(add-hook 'js3-mode-hook #'smartparens-mode)
+
+
+;; (require 'evil-leader) 
+;; (global-evil-leader-mode t)
+;; ; (evilnc-default-hotkeys)
+;; (global-set-key (kbd "M-;") 'evilnc-comment-or-uncomment-lines)
+;; (global-set-key (kbd "C-c l") 'evilnc-quick-comment-or-uncomment-to-the-line)
+;; (global-set-key (kbd "C-c c") 'evilnc-copy-and-comment-lines)
+;; (global-set-key (kbd "C-c p") 'evilnc-comment-or-uncomment-paragraphs)
 ;; disable creation of lockfiles
 (setq create-lockfiles nil)
 
@@ -90,3 +106,35 @@
 ;; unique
 (require 'uniquify)
 ; (setq uniquify-buffer-name-style 'reverse)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-args-compile (quote ("-c" "--bare")))
+ '(coffee-tab-width 2)
+ '(custom-enabled-themes (quote (solarized-dark)))
+ '(custom-safe-themes
+   (quote
+    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
+ '(js3-curly-indent-offset 2)
+ '(js3-expr-indent-offset 2)
+ '(js3-lazy-commas t)
+ '(js3-lazy-dots t)
+ '(js3-lazy-operators t)
+ '(js3-mirror-mode t)
+ '(js3-paren-indent-offset 2)
+ '(js3-square-indent-offset 2)
+ '(web-mode-code-indent-offset 4)
+ '(web-mode-css-indent-offset 4)
+ '(web-mode-enable-auto-expanding t)
+ '(web-mode-enable-current-element-highlight t)
+ '(web-mode-indent-style 4)
+ '(web-mode-markup-indent-offset 4)
+ '(winner-mode t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
