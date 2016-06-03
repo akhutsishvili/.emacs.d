@@ -86,7 +86,7 @@
 (require 'goto-last-change)
 
 (require 'smartparens-config)
-(add-hook 'js3-mode-hook #'smartparens-mode)
+(smartparens-global-mode)
 
 
 ;; (require 'evil-leader) 
