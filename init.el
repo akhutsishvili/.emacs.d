@@ -38,7 +38,7 @@
 (require 'mode-mappings)
 
 
-;; Functions (load all files in defuns-dir)
+;; Functions (load all files in defuns-dir) 
 (setq defuns-dir (expand-file-name "defuns" user-emacs-directory))
 (dolist (file (directory-files defuns-dir t "\\w+"))
   (when (file-regular-p file)
@@ -117,6 +117,7 @@
  '(custom-safe-themes
    (quote
     ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
+ '(js2-strict-missing-semi-warning nil)
  '(js3-curly-indent-offset 2)
  '(js3-expr-indent-offset 2)
  '(js3-lazy-commas t)
