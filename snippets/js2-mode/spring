@@ -1,0 +1,13 @@
+springRequest({
+    url: '$1',
+    jsonData: $2,
+    success: function (result) {
+        if(result.success) {
+            $3
+        }
+        else {
+            displayNotification('error', result.errorMessage)
+            $4
+        }
+    }
+})
