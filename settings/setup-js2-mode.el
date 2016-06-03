@@ -1,5 +1,5 @@
 (autoload 'js2-mode "js2-mode" nil t)
-(require 'js3-refactor)
+(require 'js2-refactor)
 (js3r-add-keybindings-with-prefix "C-c C-m")
 
 (add-hook 'js2-mode-hook
