@@ -5,6 +5,6 @@
 (add-to-list 'auto-mode-alist '("\\.hbs$" . web-mode))
 
 ;; javascript
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js3-mode))
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 
 (provide 'mode-mappings)
